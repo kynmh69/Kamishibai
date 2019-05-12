@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F552CAF32287BA8300D629B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CAF22287BA8300D629B2 /* AppDelegate.swift */; };
+		F552CAF52287BA8300D629B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CAF42287BA8300D629B2 /* ViewController.swift */; };
+		F552CAF82287BA8300D629B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F552CAF62287BA8300D629B2 /* Main.storyboard */; };
+		F552CAFA2287BA8500D629B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F552CAF92287BA8500D629B2 /* Assets.xcassets */; };
+		F552CAFD2287BA8500D629B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F552CAFB2287BA8500D629B2 /* LaunchScreen.storyboard */; };
+		F552CB082287BA8500D629B2 /* KamishibaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CB072287BA8500D629B2 /* KamishibaiTests.swift */; };
+		F552CB132287BA8500D629B2 /* KamishibaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552CB122287BA8500D629B2 /* KamishibaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F552CB042287BA8500D629B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F552CAE72287BA8200D629B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F552CAEE2287BA8300D629B2;
+			remoteInfo = Kamishibai;
+		};
+		F552CB0F2287BA8500D629B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F552CAE72287BA8200D629B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F552CAEE2287BA8300D629B2;
+			remoteInfo = Kamishibai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F552CAEF2287BA8300D629B2 /* Kamishibai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kamishibai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552CAF22287BA8300D629B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F552CAF42287BA8300D629B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F552CAF72287BA8300D629B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F552CAF92287BA8500D629B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F552CAFC2287BA8500D629B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F552CAFE2287BA8500D629B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552CB032287BA8500D629B2 /* KamishibaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamishibaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552CB072287BA8500D629B2 /* KamishibaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamishibaiTests.swift; sourceTree = "<group>"; };
+		F552CB092287BA8500D629B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552CB0E2287BA8500D629B2 /* KamishibaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamishibaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552CB122287BA8500D629B2 /* KamishibaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamishibaiUITests.swift; sourceTree = "<group>"; };
+		F552CB142287BA8500D629B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552CB202287D7A100D629B2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		F552CB212287D7A100D629B2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F552CAEC2287BA8300D629B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CB002287BA8500D629B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CB0B2287BA8500D629B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F552CAE62287BA8200D629B2 = {
+			isa = PBXGroup;
+			children = (
+				F552CAF12287BA8300D629B2 /* Kamishibai */,
+				F552CB062287BA8500D629B2 /* KamishibaiTests */,
+				F552CB112287BA8500D629B2 /* KamishibaiUITests */,
+				F552CAF02287BA8300D629B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F552CAF02287BA8300D629B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F552CAEF2287BA8300D629B2 /* Kamishibai.app */,
+				F552CB032287BA8500D629B2 /* KamishibaiTests.xctest */,
+				F552CB0E2287BA8500D629B2 /* KamishibaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F552CAF12287BA8300D629B2 /* Kamishibai */ = {
+			isa = PBXGroup;
+			children = (
+				F552CAF22287BA8300D629B2 /* AppDelegate.swift */,
+				F552CAF42287BA8300D629B2 /* ViewController.swift */,
+				F552CAF62287BA8300D629B2 /* Main.storyboard */,
+				F552CAF92287BA8500D629B2 /* Assets.xcassets */,
+				F552CAFB2287BA8500D629B2 /* LaunchScreen.storyboard */,
+				F552CAFE2287BA8500D629B2 /* Info.plist */,
+			);
+			path = Kamishibai;
+			sourceTree = "<group>";
+		};
+		F552CB062287BA8500D629B2 /* KamishibaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F552CB072287BA8500D629B2 /* KamishibaiTests.swift */,
+				F552CB092287BA8500D629B2 /* Info.plist */,
+			);
+			path = KamishibaiTests;
+			sourceTree = "<group>";
+		};
+		F552CB112287BA8500D629B2 /* KamishibaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F552CB122287BA8500D629B2 /* KamishibaiUITests.swift */,
+				F552CB142287BA8500D629B2 /* Info.plist */,
+			);
+			path = KamishibaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F552CAEE2287BA8300D629B2 /* Kamishibai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552CB172287BA8500D629B2 /* Build configuration list for PBXNativeTarget "Kamishibai" */;
+			buildPhases = (
+				F552CAEB2287BA8300D629B2 /* Sources */,
+				F552CAEC2287BA8300D629B2 /* Frameworks */,
+				F552CAED2287BA8300D629B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kamishibai;
+			productName = Kamishibai;
+			productReference = F552CAEF2287BA8300D629B2 /* Kamishibai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F552CB022287BA8500D629B2 /* KamishibaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552CB1A2287BA8500D629B2 /* Build configuration list for PBXNativeTarget "KamishibaiTests" */;
+			buildPhases = (
+				F552CAFF2287BA8500D629B2 /* Sources */,
+				F552CB002287BA8500D629B2 /* Frameworks */,
+				F552CB012287BA8500D629B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F552CB052287BA8500D629B2 /* PBXTargetDependency */,
+			);
+			name = KamishibaiTests;
+			productName = KamishibaiTests;
+			productReference = F552CB032287BA8500D629B2 /* KamishibaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F552CB0D2287BA8500D629B2 /* KamishibaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552CB1D2287BA8500D629B2 /* Build configuration list for PBXNativeTarget "KamishibaiUITests" */;
+			buildPhases = (
+				F552CB0A2287BA8500D629B2 /* Sources */,
+				F552CB0B2287BA8500D629B2 /* Frameworks */,
+				F552CB0C2287BA8500D629B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F552CB102287BA8500D629B2 /* PBXTargetDependency */,
+			);
+			name = KamishibaiUITests;
+			productName = KamishibaiUITests;
+			productReference = F552CB0E2287BA8500D629B2 /* KamishibaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F552CAE72287BA8200D629B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hiroki Kayanuma";
+				TargetAttributes = {
+					F552CAEE2287BA8300D629B2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F552CB022287BA8500D629B2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F552CAEE2287BA8300D629B2;
+					};
+					F552CB0D2287BA8500D629B2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F552CAEE2287BA8300D629B2;
+					};
+				};
+			};
+			buildConfigurationList = F552CAEA2287BA8200D629B2 /* Build configuration list for PBXProject "Kamishibai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = F552CAE62287BA8200D629B2;
+			productRefGroup = F552CAF02287BA8300D629B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F552CAEE2287BA8300D629B2 /* Kamishibai */,
+				F552CB022287BA8500D629B2 /* KamishibaiTests */,
+				F552CB0D2287BA8500D629B2 /* KamishibaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F552CAED2287BA8300D629B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552CAFD2287BA8500D629B2 /* LaunchScreen.storyboard in Resources */,
+				F552CAFA2287BA8500D629B2 /* Assets.xcassets in Resources */,
+				F552CAF82287BA8300D629B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CB012287BA8500D629B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CB0C2287BA8500D629B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F552CAEB2287BA8300D629B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552CAF52287BA8300D629B2 /* ViewController.swift in Sources */,
+				F552CAF32287BA8300D629B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CAFF2287BA8500D629B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552CB082287BA8500D629B2 /* KamishibaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552CB0A2287BA8500D629B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552CB132287BA8500D629B2 /* KamishibaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F552CB052287BA8500D629B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F552CAEE2287BA8300D629B2 /* Kamishibai */;
+			targetProxy = F552CB042287BA8500D629B2 /* PBXContainerItemProxy */;
+		};
+		F552CB102287BA8500D629B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F552CAEE2287BA8300D629B2 /* Kamishibai */;
+			targetProxy = F552CB0F2287BA8500D629B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F552CAF62287BA8300D629B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F552CAF72287BA8300D629B2 /* Base */,
+				F552CB202287D7A100D629B2 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F552CAFB2287BA8500D629B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F552CAFC2287BA8500D629B2 /* Base */,
+				F552CB212287D7A100D629B2 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F552CB152287BA8500D629B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F552CB162287BA8500D629B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F552CB182287BA8500D629B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = Kamishibai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.Kamishibai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F552CB192287BA8500D629B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = Kamishibai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.Kamishibai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F552CB1B2287BA8500D629B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = KamishibaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.KamishibaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamishibai.app/Kamishibai";
+			};
+			name = Debug;
+		};
+		F552CB1C2287BA8500D629B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = KamishibaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.KamishibaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamishibai.app/Kamishibai";
+			};
+			name = Release;
+		};
+		F552CB1E2287BA8500D629B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = KamishibaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.KamishibaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kamishibai;
+			};
+			name = Debug;
+		};
+		F552CB1F2287BA8500D629B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 537EK52CZE;
+				INFOPLIST_FILE = KamishibaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.KamishibaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kamishibai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F552CAEA2287BA8200D629B2 /* Build configuration list for PBXProject "Kamishibai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552CB152287BA8500D629B2 /* Debug */,
+				F552CB162287BA8500D629B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F552CB172287BA8500D629B2 /* Build configuration list for PBXNativeTarget "Kamishibai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552CB182287BA8500D629B2 /* Debug */,
+				F552CB192287BA8500D629B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F552CB1A2287BA8500D629B2 /* Build configuration list for PBXNativeTarget "KamishibaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552CB1B2287BA8500D629B2 /* Debug */,
+				F552CB1C2287BA8500D629B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F552CB1D2287BA8500D629B2 /* Build configuration list for PBXNativeTarget "KamishibaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552CB1E2287BA8500D629B2 /* Debug */,
+				F552CB1F2287BA8500D629B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F552CAE72287BA8200D629B2 /* Project object */;
+}
